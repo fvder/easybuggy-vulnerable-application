@@ -20,6 +20,8 @@
 		<jvm.args.gc.log.file.rotation>-XX:+UseGCLogFileRotation</jvm.args.gc.log.file.rotation>
 		<jvm.args.number.of.gc.log.files>-XX:NumberOfGCLogFiles=5</jvm.args.number.of.gc.log.files>
 		<jvm.args.gc.log.file.size>-XX:GCLogFileSize=10M</jvm.args.gc.log.file.size>
+		<sonar.host.url>http://10.0.119.63:9000/</sonar.host.url> 
+		<sonar.login>squ_6064b22c9e2ec4cb4c34a0c0f88ba674ceedab6d</sonar.login>
 	</properties>
 
 	<profiles>
@@ -127,6 +129,21 @@
 			<version>1.5.1</version>
 		</dependency>
 	</dependencies>
+
+	<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Aeternity Presitige Releases Nexus Repository</name>
+	      <url>http://107.23.31.159:8081/repository/easy-buggy-releases/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Aeternity Presitige Snapshot Nexus Repository</name>
+	      <url>http://107.23.31.159:8081/repository/easy-buggy-snapshots/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 	
 	<build>
 		<plugins>
