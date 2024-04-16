@@ -333,19 +333,9 @@
           <goals>
             <goal>test</goal>
           </goals>
-        </execution>
-        <execution>
-          <id>snyk-monitor</id>
-          <goals>
-            <goal>monitor</goal>
-          </goals>
-        </execution>
       </executions>
-      <configuration>
-        <apiToken>${env.SNYK_TOKEN}</apiToken>
-        <args>
-          <arg>--all-projects</arg>
-        </args>
+       <configuration>
+        <org>fvder</org>
       </configuration>
     </plugin>
 			
