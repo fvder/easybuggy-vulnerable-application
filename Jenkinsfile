@@ -14,10 +14,10 @@ pipeline{
                 sh "mvn clean package"
             }
         }
- /*       stage('3.SonarQubeSAST/SCQA'){
+        stage('3.SonarQubeSAST/SCQA'){
             steps{
                 sh "mvn sonar:sonar"
             }
-        } */
+        }
     }
 }
