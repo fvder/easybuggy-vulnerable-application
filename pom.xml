@@ -325,9 +325,9 @@
     <plugin>
       <groupId>io.snyk</groupId>
       <artifactId>snyk-maven-plugin</artifactId>
-      <version>2.0.0</version>
+      <version>2.2.0</version>
       <inherited>false</inherited>
-	    <executions>
+      <executions>
         <execution>
           <id>snyk-test</id>
           <goals>
@@ -342,7 +342,10 @@
         </execution>
       </executions>
       <configuration>
-        <org>fvder</org>
+        <apiToken>b4cd28ca-8252-4776-9f4e-66f4a5f8b6d1</apiToken>
+        <args>
+          <arg>--all-projects</arg>
+        </args>
       </configuration>
     </plugin>
 			
