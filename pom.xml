@@ -343,9 +343,6 @@
       </executions>
       <configuration>
         <apiToken>b4cd28ca-8252-4776-9f4e-66f4a5f8b6d1</apiToken>
-        <args>
-          <arg>--all-projects</arg>
-        </args>
       </configuration>
     </plugin>
 			
