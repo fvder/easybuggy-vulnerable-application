@@ -328,7 +328,7 @@
       <version>2.2.0</version>
       <inherited>false</inherited>
       <configuration>
-        <apiToken>b4cd28ca-8252-4776-9f4e-66f4a5f8b6d1</apiToken>
+        <apiToken>SNYK_TOKEN</apiToken>
       </configuration>
     </plugin>
 			
